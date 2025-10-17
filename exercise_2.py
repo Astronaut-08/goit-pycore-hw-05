@@ -12,7 +12,7 @@ def is_float(text: str) -> bool:
     try: # це щось типу функції isdigit() тільки для float
         float(text)
         return True
-    # якщо він кидає помилку то повертаємо False 
+    # якщо він кидає помилку то повертаємо False
     except ValueError:
         return
 
